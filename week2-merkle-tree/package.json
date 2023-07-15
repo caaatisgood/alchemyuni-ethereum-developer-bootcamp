@@ -1,12 +1,15 @@
 {
   "name": "merkle-tree-gift-list",
   "scripts": {
-    "client:start": "node client/index.js",
-    "server:start": "node server/index.js"
+    "client": "node client/index.js",
+    "server": "node server/index.js"
   },
   "dependencies": {
     "axios": "^1.2.0",
     "ethereum-cryptography": "^1.1.2",
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "commander": "^11.0.0"
   }
 }

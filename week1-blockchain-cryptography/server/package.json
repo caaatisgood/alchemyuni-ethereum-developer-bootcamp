@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node scripts/generate.js",
+    "sign": "node scripts/sign.js",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@noble/curves": "^1.1.0",
+    "cors": "^2.8.5",
+    "ethereum-cryptography": "^2.0.0",
+    "express": "^4.18.1",
+    "web3-validator": "^1.0.1"
+  },
+  "devDependencies": {
+    "commander": "^11.0.0"
+  }
+}

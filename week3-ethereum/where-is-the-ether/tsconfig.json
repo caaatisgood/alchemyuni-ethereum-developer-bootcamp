@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "./lib",
+    "rootDir": "./",
+    "types": [
+      "mocha"
+    ]
+  },
+  "include": ["__tests__/**/*", "src/**/*"],
+  "exclude": ["node_modules"]
+}

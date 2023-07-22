@@ -1,0 +1,23 @@
+{
+  "name": "where-is-the-ether",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "ethers": "^6.6.4",
+    "ganache": "^7.9.0",
+    "mocha": "^10.2.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^20.4.4",
+    "ts-node": "^10.9.1"
+  }
+}

@@ -1,17 +1,16 @@
 # Where is the Ether?
 
-<summary>
-  Where is the Ether?
-  <details>
-    If you take a look at the test cases you'll see that there will be three blocks mined with several transactions in each one.
+## Problem
 
-    The addresses where the ether is sent to will be randomly generated. It is up to you to find all of these addresses and return them in an array.
+### Where is the Ether?
 
-    **🏁 Your Goal: Find the Addresses**
+If you take a look at the test cases you'll see that there will be three blocks mined with several transactions in each one.
 
-    The findEther function is passed an address which has sent ether to several addresses. The goal of this function is to find every address that has received ether and return it in an array of addresses.
-  </details>
-</summary>
+The addresses where the ether is sent to will be randomly generated. It is up to you to find all of these addresses and return them in an array.
+
+### 🏁 Your Goal: Find the Addresses
+
+The findEther function is passed an address which has sent ether to several addresses. The goal of this function is to find every address that has received ether and return it in an array of addresses.
 
 ## Context
 
@@ -36,7 +35,7 @@ Note that there are some additional changes in response to the dependency upgrad
     ethers.parseEther('10')
     ```
 
-- `Web3Provider` is now called `BrowserProvider`. There's a slight change on the import path change as well. ([ref](https://docs.ethers.org/v6/migrating/#migrate-providers))
+- `Web3Provider` is now called `BrowserProvider`. There's a slight change on the import path as well. ([ref](https://docs.ethers.org/v6/migrating/#migrate-providers))
   - Before
 
     ```js
@@ -68,7 +67,7 @@ Note that there are some additional changes in response to the dependency upgrad
     ganacheProvider.request({ method: "...", params: [/* ... */] })
     ```
 
-## Installation
+## Install dependencies
 
 ```sh
 npm i

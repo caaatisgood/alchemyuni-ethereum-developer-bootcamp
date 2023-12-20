@@ -1,0 +1,31 @@
+/* global styles */
+
+.page-title {
+  font-size: 28px;
+}
+
+/* layout styles */
+
+.layout-header {
+  padding: 12px 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.layout-header h1, .layout-header p {
+  margin: 0;
+}
+
+.layout-nav {
+  display: flex;
+  gap: 8px;
+}
+
+.layout-nav li {
+  list-style-type: none;
+}
+
+.layout-nav li .active {
+  font-weight: bold;
+}
